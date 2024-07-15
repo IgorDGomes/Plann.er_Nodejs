@@ -69,15 +69,17 @@ npm install
 
 ## API Endpoints
 
+<br />
+
 ### Trip Endpoints
 
-| route                                   | description                                          
+| routes                                  | description                                          
 |-----------------------------------------|-----------------------------------------------------
 | <kbd>POST /trips</kbd>                  | create trip - [details](#post-trip)
 | <kbd>GET /trips/:tripId</kbd>           | retrieves trip info - [details](#get-trip-details)
 | <kbd>PUT /trips/:tripId</kbd>           | update trip - [details](#update-trip)
 | <kbd>GET /trips/:tripId/confirm</kbd>   | confirm trip - [details](#confirm-trip)
-|
+
 
 <br />
 
@@ -111,8 +113,6 @@ npm install
 
 <br />
 
----
-
 
 <h3 id="get-trip-details">GET /trips/:tripId</h3>
 
@@ -132,8 +132,6 @@ npm install
 ```
 
 <br />
-
----
 
 
 <h3 id="update-trip">PUT /trips/:tripId</h3>
@@ -158,8 +156,6 @@ npm install
 
 <br />
 
----
-
 
 <h3 id="confirm-trip">GET /trips/:tripId/confirm</h3>
 
@@ -168,20 +164,18 @@ npm install
 <br />
 
 ---
----
----
 
 <br />
 
 ### Participant Endpoints
 
-| route                                               | description                                          
+| routes                                              | description                                          
 |-----------------------------------------------------|-----------------------------------------------------
 | <kbd>POST /trips/:tripId/invites</kbd>              | create invite - [details](#post-participants)
 | <kbd>GET /trips/:tripId/participants</kbd>          | retrieves participants - [details](#get-participants)
 | <kbd>GET /participants/:participantId</kbd>         | retrieves participant details - [details](#get-participant-details)
 | <kbd>GET /participants/:participantId/confirm</kbd> | update trip - [details](#confirm-participant)
-|
+
 
 <br />
 
@@ -206,8 +200,6 @@ npm install
 ```
 
 <br />
-
----
 
 
 <h3 id="get-participants">GET /trips/:tripId/participants</h3>
@@ -242,8 +234,6 @@ npm install
 
 <br />
 
----
-
 
 <h3 id="get-participant-details">GET /participants/:participantId</h3>
 
@@ -263,8 +253,6 @@ npm install
         
 <br />
 
----
-
 
 <h3 id="confirm-participant">GET /participants/:participantId/confirm</h3>
 
@@ -274,18 +262,16 @@ npm install
 <br />
 
 ---
----
----
 
 <br />
 
 ### Link Endpoints
 
-| route                                               | description                                          
-|-----------------------------------------------------|-----------------------------------------------------
-| <kbd>POST /trips/:tripId/links</kbd>              | create link - [details](#post-link)
-| <kbd>GET /trips/:tripId/links</kbd>          | retrieves links - [details](#get-links)
-|
+| routes                                  | description                                          
+|-----------------------------------------|-----------------------------------------------------
+| <kbd>POST /trips/:tripId/links</kbd>    | create link - [details](#post-link)
+| <kbd>GET /trips/:tripId/links</kbd>     | retrieves links - [details](#get-links)
+
 
 <br />
 
@@ -311,8 +297,6 @@ npm install
 
 <br />
 
----
-
 
 <h3 id="get-links">GET /trips/:tripId/links</h3>
 
@@ -335,18 +319,16 @@ npm install
 <br />
 
 ---
----
----
 
 <br />
 
 ### Activity Endpoints
 
-| route                                               | description                                          
-|-----------------------------------------------------|-----------------------------------------------------
-| <kbd>POST /trips/:tripId/activities</kbd>           | create activity - [details](#post-activity)
-| <kbd>GET /trips/:tripId/activities</kbd>          | retrieves activities - [details](#get-activities)
-|
+| routes                                      | description                                          
+|---------------------------------------------|-----------------------------------------------------
+| <kbd>POST /trips/:tripId/activities</kbd>   | create activity - [details](#post-activity)
+| <kbd>GET /trips/:tripId/activities</kbd>    | retrieves activities - [details](#get-activities)
+
 
 <br />
 
@@ -371,8 +353,6 @@ npm install
 ```
 
 <br />
-
----
 
 
 <h3 id="get-activities">GET /trips/:tripId/activities</h3>
